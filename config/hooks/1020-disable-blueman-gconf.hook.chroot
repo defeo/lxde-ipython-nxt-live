@@ -1,0 +1,3 @@
+# Deactivate crappy default gconf store for blueman
+
+sed -i 's/__priority__ = 0/__priority__ = 1000/' /usr/lib/python2.7/dist-packages/blueman/plugins/config/Gconf.py
