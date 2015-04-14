@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=IPython notebook
+Exec=ipython notebook
+GenericName=IPython Notebook
+Icon=jupyter
+Name=ipython notebook
+Categories=Development;Utility;Network;
+StartupNotify=false
+Terminal=true
+Type=Application

@@ -1,0 +1,5 @@
+cat <<EOT >> /etc/xdg/lxsession/LXDE/desktop.conf
+
+[STATE]
+laptop_mode=yes
+EOT

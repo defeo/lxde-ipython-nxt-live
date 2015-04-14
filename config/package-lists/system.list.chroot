@@ -1,0 +1,11 @@
+aptitude
+openssh-client
+debian-installer-launcher
+fuse
+usbutils
+bluez
+bluez-tools
+bluez-obexd
+blueman
+! grep-aptavail -n -F Section contrib --and -F Section kernel --and --not -F Package virtualbox -s Package 
+! grep-aptavail -n -F Section non-free --and -F Section kernel -s Package
